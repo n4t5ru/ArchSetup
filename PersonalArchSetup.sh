@@ -3,7 +3,7 @@
 : '
     Author:         n4t5u
     Email:          hello@nasru.me
-    Version:        1.1
+    Version:        1.2
     Created:        15/11/2022
     Modified:       16/03/2023
     ScriptName:     PersonalArchSetup
@@ -32,7 +32,7 @@ function main() {
     # Install required packages
     echo "$red Required Packages are being installed"
     pacman -S --noconfirm terminator go python3 python-pip burpsuite gobuster dirb nmap airoscript john hashcat sqlmap hydra htop snapd > /dev/null 2>&1
-    echo "$green All packages installed"
+    echo "$green All packages from BlackArch and Normal-Arch repositories installed"
 
     # Snap requirements
     systemctl enable --now snapd.socket
@@ -43,7 +43,7 @@ function main() {
     echo "$red Snap Packages are being installed"
     snap install spotify notion-snap vlc postman telegram-desktop discord slack > /dev/null 2>&1
     snap install code --classic > /dev/null 2>&1
-    echo "$green Snap Packages has been installed"
+    echo "$green All packages from SnapCraft repositories installed"
 
     # Cleaning the downloaded files
     rm -rf strap.sh

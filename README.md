@@ -1,7 +1,8 @@
 # ArchSetup
 
-Script automating the steps taken to install and setup a normal ArchLinux machine with the following features:
-- BlackArchLinux Repositories
+## About:
+- Script automating the steps taken to install and setup a ArchLinux machine with the following features:
+- ``BlackArchLinux`` Repositories will be setup and the following Packages will be installed:
     - GoBuster
     - Dirb
     - Airoscript
@@ -9,9 +10,12 @@ Script automating the steps taken to install and setup a normal ArchLinux machin
     - Hashcat 
     - SQLmap 
     - Hydra
-- NMap
-- Terminator
-- Snapcraft:
+- Non-Blackarch packages:
+    - NMap
+    - Terminator
+    - Python3
+    - PIP3
+- Snapcraft will be installed and the follwing Snap packages will be installed:
     - Spotify
     - Notion
     - Telegram
@@ -20,5 +24,7 @@ Script automating the steps taken to install and setup a normal ArchLinux machin
     - Postman
     - Slack
     - VLC
-- Python
-- PIP
+
+## How To:
+- Make the script an executable ```chmod +x WordpressSetup.sh```
+- Run the script with ``SUDO`` permission
